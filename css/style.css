@@ -1,0 +1,36 @@
+.hidden {
+    display: none;
+  }
+
+
+
+  #login {
+    border:20px solid lightblue
+    padding:500px 800px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    width:850px; height:0px;
+    margin-left:-700px;
+    margin-top:-10px;
+    
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+ }
+
+ #clock{
+   color: white;
+ }
+
+ #quote{
+  color: white;
+ }
+
+ #greeting{
+  color: white;
+ }
+ #weather{
+  color: white;
+ }
