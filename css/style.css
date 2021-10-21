@@ -3,34 +3,73 @@
   }
 
 
+.flex{
+  display: flex;
+  background: coral;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1px solid black;
 
-  #login {
-    border:20px solid lightblue
-    padding:500px 800px;
-    position: absolute;
-    top:50%;
-    left:50%;
-    width:850px; height:0px;
-    margin-left:-700px;
-    margin-top:-10px;
-    
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
-    align-items: center;
- }
+}
 
- #clock{
-   color: white;
- }
 
- #quote{
-  color: white;
- }
+#login{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 
- #greeting{
-  color: white;
- }
- #weather{
-  color: white;
- }
+}
+
+#clock{
+  font-size: 70px;
+  color: antiquewhite;
+}
+
+#todo-list{
+  list-style: none;
+  padding-right: 30px;
+}
+
+
+button{
+  margin-left: 15px;
+  color: black;
+  border: 1px solid #fff;
+  font-weight: 100;
+  font-size: 5px;
+}
+
+button:hover{
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+  
+}
+
+#quote{
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+
+}
+
+#weather{
+  margin-top: 30px;
+  font-size: small;
+
+  
+
+}
+
+input{
+  border-color: aliceblue;
+  
+}
+
+input:hover{
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+  
+}
